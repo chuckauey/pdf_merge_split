@@ -14,9 +14,9 @@ usage: pdf_split_merge.py [-h] (--split SPLIT | --merge MERGE [MERGE ...])
 split or merge pdfs
 
 optional arguments:  
-  -h, --help\t\tshow this help message and exit  
-  --split SPLIT\t\tsplit a pdf into multiple files  
-  --merge MERGE [MERGE ...]\t\tmerge multiple files into one
+  -h, --help show this help message and exit  
+  --split SPLIT split a pdf into multiple files  
+  --merge MERGE [MERGE ...] merge multiple files into one
 
 ### Examples
 
