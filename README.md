@@ -13,21 +13,21 @@ usage: pdf_split_merge.py [-h] (--split SPLIT | --merge MERGE [MERGE ...])
 
 split or merge pdfs
 
-optional arguments:
-  -h, --help            show this help message and exit
-  --split SPLIT         split a pdf into multiple files
-  --merge MERGE [MERGE ...]
+optional arguments:  
+  -h, --help            show this help message and exit  
+  --split SPLIT         split a pdf into multiple files  
+  --merge MERGE [MERGE ...]  
                         merge multiple files into one
 
-### Example
+### Examples
 
 #### Split
-pdf_split_merge.py --split filename
-created: filename_page_1.pdf
-created: filename_page_2.pdf
+pdf_split_merge.py --split filename  
+created: filename_page_1.pdf  
+created: filename_page_2.pdf  
 
 #### Merge
-pdf_split_merge.py --merge filename1 filename2
+pdf_split_merge.py --merge filename1 filename2  
 created: merged.pdf
 
 * Thanks to http://www.blog.pythonlibrary.org/
