@@ -39,6 +39,7 @@ def merge(output_path, input_paths):
 
     with open(output_path, 'wb') as fh:
         pdf_writer.write(fh)
+        print('created: {}'.format(output_path))
 
 
 if __name__ == '__main__':
