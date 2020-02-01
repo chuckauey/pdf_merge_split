@@ -4,7 +4,7 @@ cli tool to split or merge pdf files
 
 ### Installing
 
-git@github.com:chuckauey/pdf_merge_split.git  
+git clone git@github.com:chuckauey/pdf_merge_split.git  
 pip install -r requirements.txt
 
 ### Usage
